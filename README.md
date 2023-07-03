@@ -18,6 +18,9 @@ Tutor: Timoteo Gambella
 ✅ Link del repo:  
 https://github.com/CeciliaDomi/PreEntrega2Dominici.git
 
+✅ Link de Page:
+https://ceciliadomi.github.io/PreEntrega2Dominici/
+
 ---------------------------------------------------
 
 🔎 Detalle de uso:
