@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Albert+Sans:wght@400;600&display=swap");
+* {
+  font-family: "Albert Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6e4c3d;
+}
+
+.botonera {
+  background-color: #6e4c3d;
+}
+.botonera ul {
+  padding: 10px;
+}
+.botonera ul li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

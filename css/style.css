@@ -102,13 +102,13 @@ nav {
     nav ul li {
         padding-right: 20px;
     }
-
+ #b5785e
 .navbar-nav li a {
     color: #6e4c3d;
 }
 
     .navbar-nav :hover {
-        color: #b5785e;
+        color:;
         text-decoration: underline #6e4c3d;
         text-underline-offset: 8px;
     }

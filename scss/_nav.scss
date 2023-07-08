@@ -1,0 +1,11 @@
+//nesting - anidacion
+.botonera{
+    background-color: $mainColor;
+    ul{
+        padding:10px;
+        li{
+            list-style: none;
+        }
+    }
+
+}       
