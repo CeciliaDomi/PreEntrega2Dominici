@@ -1,0 +1,41 @@
+// ELEMENTOS PAGINA SOSTENIBILIDAD // SOSTENIBILIDAD.HTML
+
+.sostenibilidad {
+    padding: 15px 10px;
+    width: 90%;
+    @include flex(row,space-between,center);
+    button{
+        border: none;
+        &:hover{
+            background-color: blueviolet;
+        }
+    }
+}
+
+.sost-img, .sost-video {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+    .sost-img img{
+        width: 400px;
+    }
+
+    .sost-video iframe{
+        width: 400px;
+    }
+
+.sost-img2{
+    width: 50%;
+    align-items: center;
+    img{
+        width: 300px;
+    }
+}
+    
+.sost-text {
+    width: 40%;
+    text-align: center;
+    padding: 8px 20px;
+}

@@ -1,0 +1,60 @@
+// ELEMENTOS PAGINA QUIENES SOMOS // QUIENESSOMOS.HTML 
+
+.quienes {
+    width: 100%;
+    @include flex(row,space-between,center);
+    padding: 30px;
+    button{
+        border: none;
+        &:hover{
+            background-color:$colorYellow;
+        }
+    }
+}
+
+.quien-img {
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    img{
+        width: 440px;
+    }
+}
+
+.quien-text {
+    width: 40%;
+    text-align: center;
+    padding: 30px 8px;
+}
+
+.quien-equipo {
+    @include wrap(space-between,none,20px 30px);
+    figure{
+        width: 30%;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        @include flex(column,column,center);
+        figcaption{
+            color:$colorMain;
+            font-size:$textM;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+
+.quienes2 {
+    width: 100%;
+    align-items: center;
+    h2{
+        text-align: center;
+    }
+}
+
+.text-frase {
+    text-align: center;
+    font-size: 3em;
+    line-height: 1em;
+    padding: 30px;
+}
