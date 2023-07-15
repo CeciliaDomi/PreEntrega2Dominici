@@ -508,26 +508,14 @@ nav ul li {
   background-color: blueviolet;
 }
 
-.sost-img, .sost-video {
-  width: 50%;
+.sost-img, .sost-img2 .sost-video {
+  width: 60%;
   align-items: center;
   text-align: center;
 }
 
-.sost-img img {
-  width: 400px;
-}
-
 .sost-video iframe {
   width: 400px;
-}
-
-.sost-img2 {
-  width: 50%;
-  align-items: center;
-}
-.sost-img2 img {
-  width: 300px;
 }
 
 .sost-text {
