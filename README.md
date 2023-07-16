@@ -8,18 +8,20 @@ Desarrollo Web
 Profesora: Laura Avalle
 Tutor: Timoteo Gambella
 
-👩‍💻 PRE-ENTREGA 2 //
-+ Estructura y Estilos avanzados de la web
-+ Uso de Diseño Responsive
-+ Carga de Repositorio en Github
+👩‍💻 PRE-ENTREGA 3 //
++ Realizar la estructura final de la web.
++ Efectuar el estilo avanzado de la web (aplicar transformaciones, transiciones y/o animaciones).
++ Realizar una correcta implementación de SASS.
++ Aplicar técnicas de SEO.
++ Generar la carga en un repositorio en GitHub.
 
 ---------------------------------------------------
 
 ✅ Link del repo:  
-https://github.com/CeciliaDomi/PreEntrega2Dominici.git
+
 
 ✅ Link de Page:
-https://ceciliadomi.github.io/PreEntrega2Dominici/
+
 
 ---------------------------------------------------
 

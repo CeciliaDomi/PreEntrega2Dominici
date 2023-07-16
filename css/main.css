@@ -823,13 +823,15 @@ h2:hover::before {
   justify-content: start;
   padding: 5px 10px;
 }
-.cont-red:hover {
-  width: 40px;
-}
 .cont-red a {
   list-style: none;
   text-decoration: none;
   margin: 10px;
+}
+.cont-red a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .text-form {

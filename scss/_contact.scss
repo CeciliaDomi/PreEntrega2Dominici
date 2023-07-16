@@ -98,13 +98,15 @@
     flex-direction: row;
     justify-content: start;
     padding: 5px 10px;
-    &:hover{
-        width: 40px;
-    }
     a{
         list-style: none;
         text-decoration: none;
         margin: 10px;
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
     }
 }
 
