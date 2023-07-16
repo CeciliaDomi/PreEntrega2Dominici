@@ -30,21 +30,36 @@ Tutor: Timoteo Gambella
 ▶ Home /index.html
 - Uso de FlexBox
 - Uso de Librerías de Bootstrap
+- Uso de transiciones, transform y animaciones.
+- Uso de mixins y extends.
+- Uso de técncias de SEO.
 
 ▶ Page /contacto.html
 - Uso de FlexBox
 - Uso de Librerías de Bootstrap
+- Uso de transiciones, transform y animaciones.
+- Uso de mixins y extends.
+- Uso de técncias de SEO.
 
 ▶ Page /tienda.html
 - Uso de Grid
 - Uso de Flexbox
 - Uso de Librerías de Bootstrap
+- Uso de transiciones, transform y animaciones.
+- Uso de mixins y extends.
+- Uso de técncias de SEO.
 
 ▶ Page /quienessomos.html
 - Uso de Flexbox
 - Uso de Sistema de Grilla de Bootstrap
+- Uso de transiciones, transform y animaciones.
+- Uso de mixins y extends.
+- Uso de técncias de SEO.
 
 ▶ Page /sostenibilidad.html
-- Uso de Flexbox
+- Uso de Flexbox.
+- Uso de transiciones, transform y animaciones.
+- Uso de mixins y extends.
+- Uso de técncias de SEO.
 
 ---------------------------------------------------
