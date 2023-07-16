@@ -32,7 +32,7 @@
         margin-bottom: 4px;
         &:hover{
             color:$colorMain;
-            font-weight: 700;
+            font-weight: $textExtraBold;
         }
     }
     li{
@@ -86,7 +86,7 @@
 }
 
 .green {
-    background-color: rgb(5, 169, 92);
+    background-color: $colorGreen;
 }
 
 .popheader {
@@ -106,7 +106,7 @@
     }
 
         .popheader button:hover {
-            background-color: rgb(189, 141, 149);
+            background-color: $colorPurple;
         }
 
     .popheader input {
@@ -147,7 +147,7 @@
     border-radius: 10px;
     border: solid;
     border-color:$colorMain;
-    background-color: white;
+    background-color:$colorWhite;
 }
 
 .navegar {

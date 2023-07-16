@@ -58,12 +58,10 @@
 
 .produ-home {
     @include wrap(space-between, 100%, 8px 30px);
-
     figure {
         width: 300px;
         padding: 10px 30px;
         @include flex(column, center, center);
-
         figcaption {
             font-size: 1, 6em;
             font-family: $secuFont;
@@ -127,7 +125,6 @@
     width: 60%;
     align-items: center;
     text-align: center;
-
     img {
         width: 100%;
     }
@@ -137,11 +134,9 @@
     width: 40%;
     text-align: center;
     padding: 8px 20px;
-
     h2 {
         color: $colorMain;
         position: relative;
-
         &::before {
             background: hsl(45 100% 70%);
             content: "";
@@ -152,7 +147,6 @@
             transition: transform 0.5s ease-in-out;
             z-index: -1;
         }
-
         &:hover::before {
             transform: scaleX(1);
             transform-origin: left;
@@ -161,7 +155,6 @@
 }
 
 // ELEMENTOS SECCION NEWSLETTER DE LA HOME -- INDEX.HTML */
-
 
 .newsletter {
     background-color: #e8e6dc;
@@ -187,7 +180,6 @@
     text-align: center;
     width: 80%;
     height: auto;
-
     img {
         align-items: center;
         width: 100%;
@@ -222,7 +214,6 @@
     width: 15%;
     align-items: center;
     display: inline;
-
     &::placeholder {
         color: $colorMain;
         text-align: center;

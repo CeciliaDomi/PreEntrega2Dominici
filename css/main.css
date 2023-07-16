@@ -526,7 +526,7 @@ nav ul li {
   border: none;
 }
 .sostenibilidad1 button:hover, .sostenibilidad3 button:hover {
-  background-color: blueviolet;
+  background-color: rgb(137, 22, 238);
 }
 
 .sost-img, .sost-img2 .sost-video {
@@ -567,7 +567,7 @@ nav ul li {
   border: none;
 }
 .sostenibilidad2 button:hover {
-  background-color: blueviolet;
+  background-color: rgb(137, 22, 238);
 }
 
 h2 {
@@ -974,7 +974,7 @@ h2:hover::before {
 }
 
 .popheader button:hover {
-  background-color: rgb(189, 141, 149);
+  background-color: rgb(137, 22, 238);
 }
 
 .popheader input {
@@ -1021,7 +1021,7 @@ h2:hover::before {
   border-radius: 10px;
   border: solid;
   border-color: #6e4c3d;
-  background-color: white;
+  background-color: rgb(255, 254, 254);
 }
 
 .navegar {
@@ -1232,18 +1232,13 @@ h2:hover::before {
   .nos-img img {
     width: 57vh;
   }
-  .portada img {
+  .portada img img {
     height: 130px;
   }
-  .portada h1 {
+  .portada img h1 {
     align-items: center;
     text-align: center;
     font-size: 3.5em;
-  }
-  .sostenibilidad {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
   }
   .newsletter {
     background-color: #e8e6dc;

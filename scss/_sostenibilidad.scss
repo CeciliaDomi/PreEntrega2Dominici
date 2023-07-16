@@ -7,7 +7,7 @@
     button{
         border: none;
         &:hover{
-            background-color: blueviolet;
+            background-color: $colorPurple;
             
         }
     }
@@ -46,7 +46,7 @@
     button{
         border: none;
         &:hover{
-            background-color: blueviolet;
+            background-color: $colorPurple;
         }
     }
 }
