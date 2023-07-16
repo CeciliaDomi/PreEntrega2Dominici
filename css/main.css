@@ -374,15 +374,15 @@ nav ul li {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 5px 60px;
+  margin: 5px 40px;
   transition: transform 0.2s;
   flex-wrap: wrap;
 }
 .icono-serv img {
   padding: 15px;
   transition: transform 0.2s;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
 }
 .icono-serv img:hover {

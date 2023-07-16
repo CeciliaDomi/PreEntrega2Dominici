@@ -83,14 +83,14 @@
 .icono-serv {
     width: 100%;
     @include flex(row, space-around, center);
-    margin: 5px 60px;
+    margin: 5px 40px;
     transition: transform .2s;
     flex-wrap: wrap;
     img {
         padding: 15px;
         transition: transform .2s;
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         margin: 0 auto;
         &:hover{
             transform: scale(1.1);
