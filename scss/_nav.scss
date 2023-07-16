@@ -38,10 +38,12 @@ nav {
 .navbar-nav li a {
     color: $colorMain;
     &:hover{
+        font-weight: 600;
         color: $colorMain;
+        cursor: pointer;
+        transition: all 0.5s ease;
         text-decoration: underline $colorYellow;
-        text-underline-offset: 8px;
-        font-weight: $textBold;
+        text-underline-offset: 8px ;
     }
 }
 

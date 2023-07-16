@@ -13,6 +13,8 @@
         border: none;
         background-color:$colorYellow;
         color:$colorBlack;
+        cursor: pointer;
+        transition: all 1s ease;
     }    
 }
 
@@ -26,6 +28,8 @@
         border: none;
         background-color:$colorPurple;
         color:$colorWhite;
+        cursor: pointer;
+        transition: all 1s ease;
     } 
 }
 

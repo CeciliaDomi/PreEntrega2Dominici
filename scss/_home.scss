@@ -1,33 +1,39 @@
 // slider portada
-.intro{
+.intro {
     background-color: $colorBg2;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    @include flex(row,space-between,center);
+    @include flex(row, space-between, center);
     align-content: center;
     padding: 30px;
 }
 
 
-.intro-img{
+.intro-img {
     align-items: center;
     text-align: center;
     width: 60%;
-    img{
+    img {
         width: 70%;
         object-fit: cover;
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: all 2s ease;
+        }
     }
+
 }
 
-.intro-text{
+.intro-text {
     width: 40%;
     align-items: center;
     text-align: center;
-    h1{
+    h1 {
         position: relative;
         text-decoration: none;
-        &::before{
+        &::before {
             background: $colorYellow;
             content: "";
             inset: 0;
@@ -35,35 +41,33 @@
             transform: scaleX(0);
             transform-origin: right;
             transition: transform 0.5s ease-in-out;
-            z-index: -1; 
-        }
-        &:hover::before{
-            transform: scaleX(1);
-            transform-origin: left;
+            z-index: -1;
         }
     }
 }
 
-.white{
-    color:$colorWhite;
+.white {
+    color: $colorWhite;
 }
 
-.list{
-    @include flex(row,right,center);
+.list {
+    @include flex(row, right, center);
 }
 
 // ELEMENTOS SECCION PRODUCTOS DE LA HOME -- INDEX.HTML
 
-.produ-home{
-    @include wrap(space-between,100%,8px 30px);
-    figure{
+.produ-home {
+    @include wrap(space-between, 100%, 8px 30px);
+
+    figure {
         width: 300px;
         padding: 10px 30px;
-        @include flex(column,center,center);
-        figcaption{
+        @include flex(column, center, center);
+
+        figcaption {
             font-size: 1, 6em;
-            font-family:$secuFont;
-            font-weight:$textBold;
+            font-family: $secuFont;
+            font-weight: $textBold;
             margin: 5px 0;
         }
     }
@@ -71,18 +75,18 @@
 
 // ELEMENTOS SECCION SERVICIOS DE LA HOME -- INDEX.HTML
 
-.servicios{
-    @include flex(row,space-around,center);
+.servicios {
+    @include flex(row, space-around, center);
     padding: 30px;
 }
 
-.icono-serv{
+.icono-serv {
     width: 100%;
-    @include flex(row,space-around,center);
+    @include flex(row, space-around, center);
     margin: 5px 60px;
     transition: transform .2s;
     flex-wrap: wrap;
-    img{
+    img {
         padding: 15px;
         transition: transform .2s;
         width: 200px;
@@ -90,21 +94,23 @@
         margin: 0 auto;
         &:hover{
             transform: scale(1.1);
+            cursor: pointer;
+            transition: all 1s ease;
         }
     }
 }
 
-.text-yellow{
-    color:$colorYellow;
+.text-yellow {
+    color: $colorYellow;
 }
 
-.button-saber{
-    background-color:$colorMain;
-    color:$colorWhite;
+.button-saber {
+    background-color: $colorMain;
+    color: $colorWhite;
 }
 
-::placeholder{
-    color:$colorWhite;
+::placeholder {
+    color: $colorWhite;
     font-style: italic;
     padding: 15px;
 }
@@ -114,14 +120,15 @@
 .nosotros {
     width: 100%;
     padding: 10px 20px;
-    @include flex(row,space-between,center);
+    @include flex(row, space-between, center);
 }
 
 .nos-img {
     width: 60%;
     align-items: center;
     text-align: center;
-    img{
+
+    img {
         width: 100%;
     }
 }
@@ -130,10 +137,12 @@
     width: 40%;
     text-align: center;
     padding: 8px 20px;
-    h2{
-        color:$colorMain;
+
+    h2 {
+        color: $colorMain;
         position: relative;
-        &::before{
+
+        &::before {
             background: hsl(45 100% 70%);
             content: "";
             inset: 0;
@@ -143,7 +152,8 @@
             transition: transform 0.5s ease-in-out;
             z-index: -1;
         }
-        &:hover::before{
+
+        &:hover::before {
             transform: scaleX(1);
             transform-origin: left;
         }
@@ -159,7 +169,7 @@
     background-size: cover;
     padding: 20px 0;
     position: relative;
-    @include flex(row,space-between,center);
+    @include flex(row, space-between, center);
 }
 
 .news-text {
@@ -177,7 +187,8 @@
     text-align: center;
     width: 80%;
     height: auto;
-    img{
+
+    img {
         align-items: center;
         width: 100%;
         object-fit: cover;
@@ -190,26 +201,30 @@
     padding: 6px;
     border: none;
     border-radius: 8px;
-    &:hover{
-        background-color:$colorYellow;
+    &:hover {
+        background-color: $colorYellow;
         color: $colorBlack;
-        transform: scale(1.1);           
+        cursor: pointer;
+        transition: all 0.5s ease;
+        transform: scale(1.1);
     }
-    input{
+
+    input {
         padding: 6px 30px;
         border-radius: 10px;
         border: solid;
-        border-color:$colorMain;
-        background-color:$colorWhite;
+        border-color: $colorMain;
+        background-color: $colorWhite;
     }
 }
 
-.form-home{
+.form-home {
     width: 15%;
     align-items: center;
     display: inline;
-    &::placeholder{
+
+    &::placeholder {
         color: $colorMain;
         text-align: center;
-    }        
+    }
 }

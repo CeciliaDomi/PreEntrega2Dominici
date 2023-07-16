@@ -25,7 +25,7 @@ h2 {
 
 h3 {
   text-align: center;
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
   width: 150px;
   border-radius: 20px;
   padding: 8px;
@@ -156,7 +156,7 @@ footer ul li a:hover {
 }
 
 .text-footer-yellow {
-  color: rgb(234, 193, 19);
+  color: rgb(255, 210, 10);
 }
 .text-footer-yellow:hover {
   color: rgba(246, 234, 179, 0.829);
@@ -166,6 +166,8 @@ footer ul li a:hover {
 
 .icon-foot img:hover {
   transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .portada {
@@ -184,6 +186,14 @@ footer ul li a:hover {
   padding: 8px 30px;
 }
 
+@keyframes animationAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .button, .button-tienda {
   border: none;
   width: 150px;
@@ -197,12 +207,14 @@ footer ul li a:hover {
 }
 .button:hover, .button-tienda:hover {
   border: none;
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
   color: rgb(14, 14, 14);
+  cursor: pointer;
+  transition: all 1s ease;
 }
 
 .button-tienda {
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
   color: rgb(14, 14, 14);
   font-size: 1em;
   text-align: center;
@@ -211,6 +223,8 @@ footer ul li a:hover {
   border: none;
   background-color: rgb(137, 22, 238);
   color: rgb(255, 254, 254);
+  cursor: pointer;
+  transition: all 1s ease;
 }
 
 header {
@@ -253,10 +267,12 @@ nav ul li {
   color: #6e4c3d;
 }
 .navbar-nav li a:hover {
-  color: #6e4c3d;
-  text-decoration: underline rgb(234, 193, 19);
-  text-underline-offset: 8px;
   font-weight: 600;
+  color: #6e4c3d;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-decoration: underline rgb(255, 210, 10);
+  text-underline-offset: 8px;
 }
 
 .container-fluid a {
@@ -285,6 +301,11 @@ nav ul li {
   width: 70%;
   object-fit: cover;
 }
+.intro-img img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 2s ease;
+}
 
 .intro-text {
   width: 40%;
@@ -296,7 +317,7 @@ nav ul li {
   text-decoration: none;
 }
 .intro-text h1::before {
-  background: rgb(234, 193, 19);
+  background: rgb(255, 210, 10);
   content: "";
   inset: 0;
   position: absolute;
@@ -304,10 +325,6 @@ nav ul li {
   transform-origin: right;
   transition: transform 0.5s ease-in-out;
   z-index: -1;
-}
-.intro-text h1:hover::before {
-  transform: scaleX(1);
-  transform-origin: left;
 }
 
 .white {
@@ -370,10 +387,12 @@ nav ul li {
 }
 .icono-serv img:hover {
   transform: scale(1.1);
+  cursor: pointer;
+  transition: all 1s ease;
 }
 
 .text-yellow {
-  color: rgb(234, 193, 19);
+  color: rgb(255, 210, 10);
 }
 
 .button-saber {
@@ -471,8 +490,10 @@ nav ul li {
   border-radius: 8px;
 }
 .button-h button:hover {
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
   color: rgb(14, 14, 14);
+  cursor: pointer;
+  transition: all 0.5s ease;
   transform: scale(1.1);
 }
 .button-h button input {
@@ -493,27 +514,36 @@ nav ul li {
   text-align: center;
 }
 
-.sostenibilidad {
-  padding: 15px 10px;
-  width: 90%;
+.sostenibilidad1, .sostenibilidad3 {
+  padding: 25px 10px;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
-.sostenibilidad button {
+.sostenibilidad1 button, .sostenibilidad3 button {
   border: none;
 }
-.sostenibilidad button:hover {
+.sostenibilidad1 button:hover, .sostenibilidad3 button:hover {
   background-color: blueviolet;
 }
 
 .sost-img, .sost-img2 .sost-video {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.sost-img2 .sost-video {
   width: 60%;
   align-items: center;
   text-align: center;
 }
 
+.sost-video {
+  padding: 20px;
+}
 .sost-video iframe {
   width: 400px;
 }
@@ -522,6 +552,62 @@ nav ul li {
   width: 40%;
   text-align: center;
   padding: 8px 20px;
+}
+
+.sostenibilidad2 {
+  padding: 25px 10px;
+  width: 100%;
+  background-color: rgba(234, 195, 19, 0.735);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sostenibilidad2 button {
+  border: none;
+}
+.sostenibilidad2 button:hover {
+  background-color: blueviolet;
+}
+
+h2 {
+  position: relative;
+  text-decoration: none;
+}
+h2::before {
+  background: rgb(255, 210, 10);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+h2:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  cursor: pointer;
+}
+
+.title-qs {
+  position: relative;
+  text-decoration: none;
+}
+.title-qs::before {
+  background: #6e4c3d;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+.title-qs:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  cursor: pointer;
 }
 
 .quienes {
@@ -536,7 +622,10 @@ nav ul li {
   border: none;
 }
 .quienes button:hover {
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 1s ease;
 }
 
 .quien-img {
@@ -544,10 +633,6 @@ nav ul li {
   align-items: center;
   text-align: center;
 }
-.quien-img img {
-  width: 440px;
-}
-
 .quien-text {
   width: 40%;
   text-align: center;
@@ -586,11 +671,48 @@ nav ul li {
   text-align: center;
 }
 
+h2 {
+  position: relative;
+  text-decoration: none;
+}
+h2::before {
+  background: rgb(255, 210, 10);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+h2:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  cursor: pointer;
+}
+
 .text-frase {
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 1em;
   padding: 30px;
+  position: relative;
+  text-decoration: none;
+}
+
+.quienes-frase {
+  animation-name: animationAlpha;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+}
+
+.qui1, .qui2, .qui3 {
+  padding: 5px;
+}
+.qui1:hover, .qui2:hover, .qui3:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 1s ease-in-out;
 }
 
 .contenedor-contact {
@@ -626,7 +748,7 @@ nav ul li {
   border: none;
   color: rgb(255, 254, 254);
   width: 120px;
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
 }
 .form-contact label {
   color: #6e4c3d;
@@ -660,7 +782,7 @@ nav ul li {
   border: none;
 }
 .contact button:hover {
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
 }
 
 .cont-text {
@@ -714,6 +836,26 @@ nav ul li {
   font-size: 3em;
   margin: 10px 0;
   line-height: 1em;
+}
+
+h2 {
+  position: relative;
+  text-decoration: none;
+}
+h2::before {
+  background: rgb(255, 210, 10);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+h2:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  cursor: pointer;
 }
 
 .category {
@@ -805,7 +947,7 @@ nav ul li {
 }
 
 .yellow {
-  background-color: rgb(234, 193, 19);
+  background-color: rgb(255, 210, 10);
 }
 
 .green {
@@ -846,6 +988,24 @@ nav ul li {
   font-size: 2.3em;
   font-weight: 600;
   font-family: "Abhaya Libre", serif;
+  padding: 10px 30px;
+  position: relative;
+  text-decoration: none;
+}
+.text-tienda::before {
+  background: rgb(255, 210, 10);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+.text-tienda:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  cursor: pointer;
 }
 
 .order-buton {

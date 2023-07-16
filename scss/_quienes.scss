@@ -6,18 +6,21 @@
     padding: 30px;
     button{
         border: none;
-        &:hover{
-            background-color:$colorYellow;
+        &:hover {
+            background-color: $colorYellow;
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: all 1s ease;
+            }
         }
     }
-}
 
 .quien-img {
     width: 60%;
     align-items: center;
     text-align: center;
     img{
-        width: 440px;
+    
     }
 }
 
@@ -52,9 +55,47 @@
     }
 }
 
-.text-frase {
+h2{
+    position: relative;
+    text-decoration: none;
+    &::before{
+        background: $colorYellow;
+        content: "";
+        inset: 0;
+        position: absolute;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s ease-in-out;
+        z-index: -1; 
+    }
+    &:hover::before{
+        transform: scaleX(1);
+        transform-origin: left;
+        cursor: pointer;
+    }
+}
+
+.text-frase{
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     line-height: 1em;
     padding: 30px;
+    position: relative;
+    text-decoration: none;
 }
+
+.quienes-frase{
+    animation-name: animationAlpha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+.qui1, .qui2, .qui3{
+    padding: 5px;
+    &:hover{
+            transform: scale(1.05);
+            cursor: pointer;
+            transition: all 1s ease-in-out;
+        }
+}
+    
