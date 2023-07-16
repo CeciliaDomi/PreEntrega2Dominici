@@ -313,8 +313,8 @@ nav ul li {
   text-align: center;
 }
 .intro-text h1 {
+  color: #6e4c3d;
   position: relative;
-  text-decoration: none;
 }
 .intro-text h1::before {
   background: rgb(255, 210, 10);
@@ -325,6 +325,10 @@ nav ul li {
   transform-origin: right;
   transition: transform 0.5s ease-in-out;
   z-index: -1;
+}
+.intro-text h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .white {
@@ -381,8 +385,8 @@ nav ul li {
 .icono-serv img {
   padding: 15px;
   transition: transform 0.2s;
-  width: 250px;
-  height: 250px;
+  width: 270px;
+  height: 270px;
   margin: 0 auto;
 }
 .icono-serv img:hover {
@@ -434,7 +438,7 @@ nav ul li {
   position: relative;
 }
 .nos-text h2::before {
-  background: hsl(45, 100%, 70%);
+  background: rgb(255, 210, 10);
   content: "";
   inset: 0;
   position: absolute;
