@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Albert+Sans:wght@400;600&display=swap");
+.button, .button-tienda {
+  border: none;
+  width: 150px;
+  border-radius: 20px;
+  padding: 8px;
+  width: 150px;
+  font-size: 1em;
+  text-align: center;
+  background-color: #6e4c3d;
+  color: rgb(255, 254, 254);
+}
+.button:hover, .button-tienda:hover {
+  border: none;
+  background-color: rgb(255, 210, 10);
+  color: rgb(14, 14, 14);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.button-tienda {
+  background-color: rgb(255, 210, 10);
+  color: rgb(14, 14, 14);
+  font-size: 1em;
+  text-align: center;
+}
+.button-tienda:hover {
+  border: none;
+  background-color: rgb(137, 22, 238);
+  color: rgb(255, 254, 254);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -194,39 +227,6 @@ footer ul li a:hover {
     opacity: 1;
   }
 }
-.button, .button-tienda {
-  border: none;
-  width: 150px;
-  border-radius: 20px;
-  padding: 8px;
-  width: 150px;
-  font-size: 1em;
-  text-align: center;
-  background-color: #6e4c3d;
-  color: rgb(255, 254, 254);
-}
-.button:hover, .button-tienda:hover {
-  border: none;
-  background-color: rgb(255, 210, 10);
-  color: rgb(14, 14, 14);
-  cursor: pointer;
-  transition: all 1s ease;
-}
-
-.button-tienda {
-  background-color: rgb(255, 210, 10);
-  color: rgb(14, 14, 14);
-  font-size: 1em;
-  text-align: center;
-}
-.button-tienda:hover {
-  border: none;
-  background-color: rgb(137, 22, 238);
-  color: rgb(255, 254, 254);
-  cursor: pointer;
-  transition: all 1s ease;
-}
-
 header {
   text-align: center;
   position: sticky;
